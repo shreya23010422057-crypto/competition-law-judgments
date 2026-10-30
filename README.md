@@ -10,13 +10,13 @@ Analysis page: https://shreya23010422057-crypto.github.io/competition-law-judgme
 
 ## Topic
 
-We studied how the Supreme Court of India has dealt with cases under the Competition Act, 2002. Two of us are taking the Competition Law elective, and we wanted to see whether the Court has been widening the Competition Commission of India's (CCI) powers or holding it to tighter standards. The Supreme Court hears only a handful of these cases each year, so it was possible to try to capture all of them.
+We studied how the Supreme Court of India has dealt with cases under the Competition Act, 2002. Shreya is taking the Competition Law elective this semester, and we wanted to see whether the Court has been widening the Competition Commission of India's (CCI) powers or holding it to tighter standards. The Supreme Court hears only a handful of these cases each year, so it was possible to try to capture all of them.
 
 ## How we found the judgments
 
-We searched the Supreme Court's judgment portal (sci.gov.in) and Indian Kanoon for "Competition Act, 2002", "Competition Commission of India" and "Section 53T" between 1 September 2021 and 31 August 2026. We cross-checked the results against year-end case roundups published by law firms and legal news sites, which listed about twenty Supreme Court matters involving the CCI in this period.
+We searched the Supreme Court's judgment portal (sci.gov.in) and Indian Kanoon for "Competition Act, 2002", "Competition Commission of India" and "Section 53T" for decisions between 1 September 2021 and 31 August 2026. We cross-checked the results against year-end competition law roundups, which listed about twenty Supreme Court matters involving the CCI in this period.
 
-We kept only reasoned judgments and orders that gave reasons. We left out interim orders on stays and deposits (for example Google LLC v. CCI, January 2023, and United Breweries v. CCI, February 2023), transfer orders, and appeals dismissed without reasons (for example CCI v. JCB India, December 2024, and CCI v. Grasim Industries, July 2026). That left nine entries. Seven are full judgments. Two, CCI v. Monsanto Holdings (September 2025) and Flipkart India v. CCI (February 2026), are short orders that still explain why the Court decided as it did. Each row links to the Court's own copy. For Flipkart we could not find a direct PDF link, so the row gives the case number to look up on sci.gov.in.
+We kept only reasoned judgments and orders that give reasons. We left out interim orders on stays and deposits (Google LLC v. CCI, 19-01-2023; United Breweries v. CCI, 17-02-2023; Meta Platforms v. CCI, 23-02-2026), and orders declining to interfere without recorded reasons (CCI v. JCB India, 20-12-2024; CCI v. Geep Industries, 09-03-2026; CCI v. Grasim Industries, 31-07-2026). That left nine entries: seven full judgments and two short orders (Monsanto and Flipkart) that set out why the Court decided as it did. Every row links to the official PDF on api.sci.gov.in, and the holding column gives pinpoint paragraph numbers for the operative part.
 
 ## What the data shows
 
@@ -38,4 +38,4 @@ Nine cases is too few to call this a trend with confidence. Who wins depends on 
 
 ## AI-use disclosure
 
-We used Claude (Anthropic) to search for candidate judgments, draft the first version of the coding for each row, make the three charts and draft the analysis page and this README. Every judgment was then opened on sci.gov.in by the team member named in the "Coded by" column, who checked the date, bench, outcome, provision, holding and precedent against the official copy and corrected the row where needed. We did not rely on headnotes or AI summaries for any final entry.
+We used Claude (Anthropic) to search for candidate cases, read the official Supreme Court PDFs, draft the coding of each row, produce the three charts and draft the analysis page and this README. Each entry was checked against the official copy on api.sci.gov.in for the date, bench, outcome, operative paragraphs and the precedent cited most often. We did not rely on headnotes or news summaries for any final entry. Shreya Kotecha reviewed the final dataset and analysis before submission.
